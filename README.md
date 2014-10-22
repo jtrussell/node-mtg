@@ -7,10 +7,15 @@
 ```
 mtg info|i <card>
     curve <decklist>
-    cache clean|clear|list|ls [<card> [, ...]]
     -h|--help|help [<command>]
     -v|--version|version
 ```
+
+## Testing
+
+We're using mocha for our tests:
+
+`npm test`
 
 ## License
 
