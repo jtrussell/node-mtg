@@ -4,6 +4,7 @@
   "description": "MTG utilities for node.",
   "main": "lib/index.js",
   "scripts": {
+    "docs": "node scripts/docs.js",
     "lint": "jshint lib/ test/",
     "test": "mocha --recursive --reporter spec"
   },
@@ -25,7 +26,9 @@
     "chai": "^1.9.2",
     "jshint": "^2.5.6",
     "mocha": "^1.21.5",
-    "sinon": "^1.10.3"
+    "sinon": "^1.10.3",
+    "shelljs": "^0.3.0",
+    "dox": "^0.5.3"
   },
   "dependencies": {
     "sqlite3": "^3.0.2"
