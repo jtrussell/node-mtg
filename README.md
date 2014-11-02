@@ -2,6 +2,7 @@
 
 > MTG utilities for node.
 
+
 ## CLI
 
 ```
@@ -11,16 +12,17 @@ mtg info|i <card>
     -v|--version|version
 ```
 
+
 ## Docs
 
 Use `npm run docs` to generate docs. This will run the `./scripts/docs.js`
 script.
 
+
 ## Testing
 
-We're using mocha for our tests:
+We're using mocha for our tests, use `npm test` to run them.
 
-`npm test`
 
 ## License
 
