@@ -1,0 +1,63 @@
+[
+  {
+    "tags": [
+      {
+        "type": "param",
+        "types": [
+          "Object"
+        ],
+        "name": "opts",
+        "description": "The options hash",
+        "optional": false
+      },
+      {
+        "type": "param",
+        "types": [
+          "Function"
+        ],
+        "name": "cb",
+        "description": "The callback function",
+        "optional": false
+      },
+      {
+        "type": "return",
+        "types": [
+          "Promise"
+        ],
+        "description": "Resolves to the sqlite3 db object"
+      }
+    ],
+    "description": {
+      "full": "<p>Truncate the sqlite db</p><p>Removes all data from relevant tables in the associated sqlite database.</p><p>The <code>opts</code> options hash can be used to pass configuration options valid<br />options include:</p><ul>\n<li><code>dbfile</code>: A string. Where the sqlite data file is located.</li>\n</ul>\n<p>Pass a callback function <code>cb</code> as the final parameter. It will be given an<br />error (or <code>null</code> if there was none) and a handle to the sqlite3 database.</p><p>The returned promise will resolve to the sqlite3 db object when the load<br />completes.</p>",
+      "summary": "<p>Truncate the sqlite db</p>",
+      "body": "<p>Removes all data from relevant tables in the associated sqlite database.</p><p>The <code>opts</code> options hash can be used to pass configuration options valid<br />options include:</p><ul>\n<li><code>dbfile</code>: A string. Where the sqlite data file is located.</li>\n</ul>\n<p>Pass a callback function <code>cb</code> as the final parameter. It will be given an<br />error (or <code>null</code> if there was none) and a handle to the sqlite3 database.</p><p>The returned promise will resolve to the sqlite3 db object when the load<br />completes.</p>"
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 2,
+    "codeStart": 22,
+    "code": "var truncate = function(opts, cb) {\n  'use strict';",
+    "ctx": {
+      "type": "function",
+      "name": "truncate",
+      "string": "truncate()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>code</p>",
+      "summary": "<p>code</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 24,
+    "codeStart": 25,
+    "code": "};\n\nmodule.exports = truncate;"
+  }
+]
