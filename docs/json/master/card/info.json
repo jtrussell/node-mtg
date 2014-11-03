@@ -1,0 +1,72 @@
+[
+  {
+    "tags": [
+      {
+        "type": "param",
+        "types": [
+          "String"
+        ],
+        "name": "cardName",
+        "description": "The name of the card to lookup",
+        "optional": false
+      },
+      {
+        "type": "param",
+        "types": [
+          "Object"
+        ],
+        "name": "opts",
+        "description": "[optional] The options hash",
+        "optional": false
+      },
+      {
+        "type": "param",
+        "types": [
+          "Function"
+        ],
+        "name": "cb",
+        "description": "[optional] The callback function",
+        "optional": false
+      },
+      {
+        "type": "return",
+        "types": [
+          "Promise"
+        ],
+        "description": "Resolves to the card info object"
+      }
+    ],
+    "description": {
+      "full": "<p>Get card info by name</p><p>An exact search by English card name.</p>",
+      "summary": "<p>Get card info by name</p>",
+      "body": "<p>An exact search by English card name.</p>"
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 2,
+    "codeStart": 12,
+    "code": "var info = function(cardName, opts, cb) {\n  'use strict';",
+    "ctx": {
+      "type": "function",
+      "name": "info",
+      "string": "info()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>code</p>",
+      "summary": "<p>code</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 14,
+    "codeStart": 15,
+    "code": "};\n\nmodule.exports = info;"
+  }
+]

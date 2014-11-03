@@ -1,0 +1,17 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>code</p>",
+      "summary": "<p>code</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 5,
+    "codeStart": 6,
+    "code": "};\n\ndb.import = require('./import');\n\ndb.truncate = require('./truncate');\n\nmodule.exports = db;"
+  }
+]

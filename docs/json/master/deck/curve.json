@@ -1,0 +1,77 @@
+[
+  {
+    "tags": [
+      {
+        "type": "see",
+        "title": "",
+        "url": "http://archive.wizards.com/Magic/Magazine/Article.aspx?x=mtgcom/arcana/678"
+      },
+      {
+        "type": "param",
+        "types": [
+          "String"
+        ],
+        "name": "deckFile",
+        "description": "Path to the mtgo formatted deck file",
+        "optional": false
+      },
+      {
+        "type": "param",
+        "types": [
+          "Object"
+        ],
+        "name": "opts",
+        "description": "[optional] The options hash",
+        "optional": false
+      },
+      {
+        "type": "param",
+        "types": [
+          "Function"
+        ],
+        "name": "cb",
+        "description": "[optional] The callback function",
+        "optional": false
+      },
+      {
+        "type": "return",
+        "types": [
+          "Promise"
+        ],
+        "description": "Resolves to the curve object"
+      }
+    ],
+    "description": {
+      "full": "<p>Get a CMC breakdown for a deckfile</p><p>The <code>deckFile</code> should be a text files in mtgo deck format.</p><p>The <code>opts</code> options hash can be used to pass configuration options, valid<br />options include:</p><ul>\n<li><code>maindeck</code>: A boolean: Whether or not cards in the maindeck should be<br />counted. Defaults to <code>true</code>.</li>\n<li><code>sideboard</code>: A boolean: Whether or not cards in the sideboard should be<br />counted. Defaults to <code>false</code>.</li>\n</ul>\n<p>Pass a callback function <code>cb</code> as the final parameter. It will be given an<br />error (or <code>null</code> if there was none) and an object whose keys are total CMCs<br />and values were the counts for that CMC. E.g.:</p><pre><code>{\n  1: 12,\n  2: 20,\n  3: 0,\n  5: 4\n}\n</code></pre><p>Note you can use <code>Object.keys</code> to get a list of the valid CMCs for you deck.</p><p>The returned promise will resolve to the curve breakdown object.</p>",
+      "summary": "<p>Get a CMC breakdown for a deckfile</p>",
+      "body": "<p>The <code>deckFile</code> should be a text files in mtgo deck format.</p><p>The <code>opts</code> options hash can be used to pass configuration options, valid<br />options include:</p><ul>\n<li><code>maindeck</code>: A boolean: Whether or not cards in the maindeck should be<br />counted. Defaults to <code>true</code>.</li>\n<li><code>sideboard</code>: A boolean: Whether or not cards in the sideboard should be<br />counted. Defaults to <code>false</code>.</li>\n</ul>\n<p>Pass a callback function <code>cb</code> as the final parameter. It will be given an<br />error (or <code>null</code> if there was none) and an object whose keys are total CMCs<br />and values were the counts for that CMC. E.g.:</p><pre><code>{\n  1: 12,\n  2: 20,\n  3: 0,\n  5: 4\n}\n</code></pre><p>Note you can use <code>Object.keys</code> to get a list of the valid CMCs for you deck.</p><p>The returned promise will resolve to the curve breakdown object.</p>"
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 2,
+    "codeStart": 38,
+    "code": "var curve = function(deckFile, opts, cb) {\n  'use strict';",
+    "ctx": {
+      "type": "function",
+      "name": "curve",
+      "string": "curve()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>code</p>",
+      "summary": "<p>code</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 40,
+    "codeStart": 41,
+    "code": "};\n\nmodule.exports = curve;"
+  }
+]
