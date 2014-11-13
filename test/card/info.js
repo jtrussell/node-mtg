@@ -6,7 +6,7 @@ var lib = require('./util').lib
 
 describe('mtg.card.info', function() {
 
-  var info = lib('card/info')
+  var info = lib('card/info');
   
   it('should be able to get info for a card', function(done) {
     info('brainstorm', function(err, card) {
