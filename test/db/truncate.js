@@ -13,4 +13,13 @@ describe('mtg.db.truncate', function() {
     done();
   });
 
+  it('should not complain if the db is already empty', function(done) {
+    // ...
+    done();
+  });
+
+  it('should not complain if there is no db file at all', function(done) {
+    // ...
+    done();
+  });
 });
