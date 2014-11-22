@@ -1,0 +1,161 @@
+{
+    "booster": [
+        "rare",
+        "uncommon",
+        "uncommon",
+        "uncommon",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common",
+        "common"
+    ],
+    "border": "black",
+    "cards": [
+        {
+            "artist": "Mark Poole",
+            "cmc": 1,
+            "colors": [
+                "Blue"
+            ],
+            "imageName": "ancestral recall",
+            "layout": "normal",
+            "manaCost": "{U}",
+            "multiverseid": 95,
+            "name": "Ancestral Recall",
+            "rarity": "Rare",
+            "reserved": true,
+            "text": "Target player draws three cards.",
+            "type": "Instant",
+            "types": [
+                "Instant"
+            ]
+        },
+        {
+            "artist": "Christopher Rush",
+            "cmc": 0,
+            "imageName": "black lotus",
+            "layout": "normal",
+            "manaCost": "{0}",
+            "multiverseid": 3,
+            "name": "Black Lotus",
+            "rarity": "Rare",
+            "reserved": true,
+            "text": "{T}, Sacrifice Black Lotus: Add three mana of any one color to your mana pool.",
+            "type": "Artifact",
+            "types": [
+                "Artifact"
+            ]
+        },
+        {
+            "artist": "Dan Frazier",
+            "cmc": 0,
+            "imageName": "mox emerald",
+            "layout": "normal",
+            "manaCost": "{0}",
+            "multiverseid": 32,
+            "name": "Mox Emerald",
+            "rarity": "Rare",
+            "reserved": true,
+            "text": "{T}: Add {G} to your mana pool.",
+            "type": "Artifact",
+            "types": [
+                "Artifact"
+            ]
+        },
+        {
+            "artist": "Dan Frazier",
+            "cmc": 0,
+            "imageName": "mox jet",
+            "layout": "normal",
+            "manaCost": "{0}",
+            "multiverseid": 33,
+            "name": "Mox Jet",
+            "rarity": "Rare",
+            "reserved": true,
+            "text": "{T}: Add {B} to your mana pool.",
+            "type": "Artifact",
+            "types": [
+                "Artifact"
+            ]
+        },
+        {
+            "artist": "Dan Frazier",
+            "cmc": 0,
+            "imageName": "mox pearl",
+            "layout": "normal",
+            "manaCost": "{0}",
+            "multiverseid": 34,
+            "name": "Mox Pearl",
+            "rarity": "Rare",
+            "reserved": true,
+            "text": "{T}: Add {W} to your mana pool.",
+            "type": "Artifact",
+            "types": [
+                "Artifact"
+            ]
+        },
+        {
+            "artist": "Dan Frazier",
+            "cmc": 0,
+            "imageName": "mox ruby",
+            "layout": "normal",
+            "manaCost": "{0}",
+            "multiverseid": 35,
+            "name": "Mox Ruby",
+            "rarity": "Rare",
+            "reserved": true,
+            "text": "{T}: Add {R} to your mana pool.",
+            "type": "Artifact",
+            "types": [
+                "Artifact"
+            ]
+        },
+        {
+            "artist": "Dan Frazier",
+            "cmc": 0,
+            "imageName": "mox sapphire",
+            "layout": "normal",
+            "manaCost": "{0}",
+            "multiverseid": 36,
+            "name": "Mox Sapphire",
+            "rarity": "Rare",
+            "reserved": true,
+            "text": "{T}: Add {U} to your mana pool.",
+            "type": "Artifact",
+            "types": [
+                "Artifact"
+            ]
+        },
+        {
+            "artist": "Mark Tedin",
+            "cmc": 3,
+            "colors": [
+                "Blue"
+            ],
+            "imageName": "timetwister",
+            "layout": "normal",
+            "manaCost": "{2}{U}",
+            "multiverseid": 132,
+            "name": "Timetwister",
+            "rarity": "Rare",
+            "reserved": true,
+            "text": "Each player shuffles his or her hand and graveyard into his or her library, then draws seven cards. (Then put Timetwister into its owner's graveyard.)",
+            "type": "Sorcery",
+            "types": [
+                "Sorcery"
+            ]
+        }
+    ],
+    "code": "LEA",
+    "gathererCode": "1E",
+    "name": "Limited Edition Alpha",
+    "releaseDate": "1993-08-05",
+    "type": "core"
+}
